@@ -1,1 +1,28 @@
-
+{
+"Summary": "Displaying a characteristic associated with a deleted group",
+"Priority": "Major",
+"Severity": "Midle",
+"Status": "To do",
+"Environment": "Desctop, Windows10 x64, Chrome97",
+  "Descriprion": {
+     "Precondition": [
+         "Authorization in your personal account",
+         "Switch the mode to store management (store_url/admin/home)",
+         "In the sidebar, expand the 'Catalog' list",
+         "The submenu 'Characteristics' is open",
+         "Characteristics 'Test', 'Test 1', 'Test 2' are included in the group of characteristics 'Overall dimensions'",
+         "The subgroup 'Groups of characteristics' is opened" ],
+     "Steps to Reproduce": [
+         "Click on the kebab menu next to the group 'Dimensions'",
+         "Select the 'Delete' menu in the kebab" ],
+     "Actual Result": [
+        "Group deleted",
+        "When switching to the 'Characteristics' tab, the characteristics 'Test', 'Test 1', 'Test 2' are displayed with binding to the deleted group" ],
+     "Expected Result": [
+        "Group deleted",
+        "When switching to the 'Characteristics' tab, the characteristics 'Test', 'Test 1', 'Test 2' are displayed without binding to the remote group" ],
+    },
+  "Attachment": "https://drive.google.com/file/d/1KAg5XKZQIQC6zYaOxrDbs2ng1LBuOxcz/view?usp=sharing",
+  "Assignee": null,
+  "Reporter": "Alona Kot"
+}
