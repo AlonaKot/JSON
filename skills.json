@@ -1,0 +1,28 @@
+{
+	"skills": [
+		"Basic theory",
+		"Client-server architecture",
+		"HTTP Server request methods",
+		"HTTP Server responses codes",
+		"Structures of requests and responses",
+		"JSON, XML. Their structure",
+		"API testing",
+		"Removing and reading logs",
+		"POSTMAN, FIDLER",
+		"VPN",
+		"Dev Tools for web browsers",
+		"Mobile testing",
+		"Feature iOS, Android, guidelines",
+		"Building iOS Apps with Xcode",
+		"Building Android Applications with Android Studio",
+		"Interception of mobile traffic (sniffing) via CHARLES",
+		"Proxy settings on iOS and Android",
+		"Terminal Linux Ubuntu. Copying, creating, viewing, moving files on servers without a graphical interface",
+		"Simple bash scripting, automation of routine tasks on the server",
+		"Access to remote servers",
+		"SQL fundamentals (Create, Delete, Drop, Insert Into, Select, From, Where, Join",
+		"GIT",
+		"JMETER",
+		"Scrum Development Methodology",
+		"Python. Creation of own client-server application." ]
+}
