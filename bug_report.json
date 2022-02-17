@@ -3,7 +3,7 @@
 "Priority": "Major",
 "Severity": "Midle",
 "Status": "To do",
-"Environment": "Desctop, Windows10 x64, Chrome97",
+"Environment": "Desktop, Windows10 x64, Chrome97",
   "Descriprion": {
      "Precondition": [
          "Authorization in your personal account",
