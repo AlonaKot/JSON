@@ -1,28 +1,29 @@
 # JSON
 
-1. Создать внешний репозиторий c названием JSON.
-+ Открыть https://github.com/, залогиниться 
-+ Зайти во вкладку `Repositories`
-+ Нажеть `New`
-+ Ввести название репозитория, сделать его общедоступным
-+ Нажать `create repository`
-2. Клонировать репозиторий JSON на локальный компьютер.
-+ Открыть GitBash в папке, где будет храниться репозиторий
-+ В командную стороку ввести команду `git clone + ссылка на репозиторий, который хотим клонировать`
-3. Внутри локального JSON создать файл “new.json”.
-+ `cd JSON` - перейти в локальный репозиторий
-+ `touch new.json`
-4. Добавить файл под гит.
-+ `git add new.json` - для добавления определенного файла
-+ `git add .` - для добавления всех файлов
- 5. Закоммитить файл.
-+ `git commit -m "new file"`
- 6. Отправить файл на внешний GitHub репозиторий.
-+ `git push`
- 7. Отредактировать содержание файла “new.json” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате JSON.
-+ `vim new.json`
-+ нажать `i`
-+ внести данные
+1. Create an external repository with a name JSON.
++ Open https://github.com/, Login in 
++ Go to tab _"Repositories"_
++ Press _"New"_
++ Enter the name of the repository, make it public
++ Press _"create repository"_
+ 2. Clone repository JSON to the local computer.
++ open GitBash in the folder where the repository will be stored
++ enter the command on the command line _git clone + link to the repository we want to clone_
+ 3. Create file inside local JSON _new.json_.
++ _cd JSON_ - go to local repository
++ _cat > new.json_
++ _ctrl + c_ - get out of editing
+ 4. Add file on git.
++ _git add new.json_ - to add a particular file
++ _git add ._ - to add all files
+ 5. Commit the file.
++ _git commit -m "new file"_
+ 6. Submit a file to an external GitHub repository.
++ _git push_
+ 7. Edit file content _new.json_ - write information about yourself (name, age, number of pets, future desired salary). Write everything in the format JSON.
++ _vim new.json_
++ press _"i"_
++ enter data
 ```
 {
 	"full_name": "Alona Kot",
@@ -31,27 +32,31 @@
 	"disired_Salary": "600$"
 }
 ```
-+ нажать `esc` ввести `:wq`
- 8. Отправить изменения на внешний репозиторий. 
-+ `git commit -am "edit file"; git push`
- 9. Создать файл preferences.json
-+ `cat > preferences.json`
- 10. В файл preferences.json добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате JSON.
-+ Ввести текст 
-```
- {
++ press _"esc"_ enter _:wq_
+ 8. Push changes to an external repository. 
++ _git add new.json_ - add the changed file to git
++ _git commit -am "edit file"_ - commit changes
++ _git push_ - push modified file to external repository
+ 9. Create file _preferences.json_
++ _cat > preferences.json_
+ 10. To file _preferences.json_ add information about your preferences (Favorite movie, favorite series, favorite food, favorite season, side you would like to visit) in the format JSON.
++ Enter text 
+ ```
+{
  "favorite_movie": "Indiana Jones",
  "favorite_serias": "Scrubs",
  "favorite_food": "Burgers",
  "country_you_would_like_to_visit": "Switzerland"
 }
 ```
-+ `ctrl + c` - выйти из редактирования
-11. Создать файл skills.json добавить информацию о скиллах которые будут изучены на курсе в формате JSON
-+ `cat > skills.json`
-+ ввести данные:
-``` 
-  {
++ _ctrl + c_ - get out of editing
+ 
+ 11. Create file _skills.json_ add information about the skills that will be studied on the course in the format JSON
+ 
+ + _cat > skills.json_
+ + Enter data:
+```
+{
 	"skills": [
 		"Basic theory",
 		"Client-server architecture",
@@ -78,20 +83,23 @@
 		"JMETER",
 		"Scrum Development Methodology",
 		"Python. Creation of own client-server application." ]
-  }
+}
 ```
-+ `ctrl + c` - выйти из редактирования
-12. Отправить сразу 2 файла на внешний репозиторий.
-+ `git add .; git commit -m "new files"; git push`
-13. На веб интерфейсе создать файл bug_report.json.
-+ В репозитории JSON нажать `add file`
-+ Выбрать `Create new file`
-+ Вести название файла
-14. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
-+ Нажать кнопку `Commit new file`
-15. На веб интерфейсе модифицировать файл bug_report.json, добавить баг репорт в формате JSON.
-+ Открыть файл bug_report.json Выбрать редактирование. Ввести текст
-``` 
++ _ctrl + c_ - get out of editing
+
+ 12. Upload 2 files at once to an external repository.
+ + _git add ._
+ + _git commit -m "new files"_
+ + _git push_
+ 13. Create a file on the web interface _bug_report.json_.
+ + In the repository JSON press _"add file"_
+ + Choose _"Create new file"_
+ + Enter the file name
+ 14. Do Commit changes (save) changes on the web interface.
+ + Press the button _"Commit new file"_
+ 15. Modify the file on the web interface _bug_report.json_, add a bug report in the format JSON.
+ + Open file _bug_report.json_ Select edit. Enter text
+ ```
 {
 "Summary": "Displaying a characteristic associated with a deleted group",
 "Priority": "Major",
@@ -114,17 +122,15 @@
         "When switching to the 'Characteristics' tab, the characteristics 'Test', 'Test 1', 'Test 2' are displayed with binding to the deleted group" ],
      "Expected Result": [
         "Group deleted",
-        "When switching to the 'Characteristics' tab, the characteristics 'Test', 'Test 1', 'Test 2' are displayed without binding to the remote group" ]
+        "When switching to the 'Characteristics' tab, the characteristics 'Test', 'Test 1', 'Test 2' are displayed without binding to the remote group" ],
     },
   "Attachment": "https://drive.google.com/file/d/1KAg5XKZQIQC6zYaOxrDbs2ng1LBuOxcz/view?usp=sharing",
   "Assignee": null,
   "Reporter": "Alona Kot"
 }
 ```
- 16. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
-+ Нажать кнопку `Commit changes`
+ 16. Do Commit changes (save) changes on the web interface.
++ Press the button _"Commit changes"_.
 
- 17. Синхронизировать внешний и локальный репозиторий JSON
-+ `git pull`
- 
- 
+ 17.Synchronize external and local repository JSON
++ _git pull_
